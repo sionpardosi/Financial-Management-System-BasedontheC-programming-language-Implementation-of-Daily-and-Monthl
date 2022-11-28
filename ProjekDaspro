@@ -16,7 +16,7 @@ int main(void) {
   printf("3. Keluar\n");
   printf("Masukkan Pilihan Anda :");
   scanf("%d", &pilihan);
-  if (pilihan == 1) {
+  if (pilihan == 1) { sion
     printf("\n\n\n\n\n\n");
     printf("\t======================================\n");
     printf("\t--------------Input Pengeluaran-------\n");
