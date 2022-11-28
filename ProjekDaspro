@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int pilihan;
+int tanggal;
+int bulan;
+int Tahun;
+int jumlah;
+
+int main(void) {
+  printf("======================================\n");
+  printf("--------Selamat Datang Mutiara--------\n");
+  printf("======================================\n");
+  printf("1. Input Pengeluaran\n");
+  printf("2. Data Keuangan\n");
+  printf("3. Keluar\n");
+  printf("Masukkan Pilihan Anda :");
+  scanf("%d", &pilihan);
+  if (pilihan == 1) {
+    printf("\n\n\n\n\n\n");
+    printf("\t======================================\n");
+    printf("\t--------------Input Pengeluaran-------\n");
+    printf("\t======================================\n");
+    printf("\nTanggal :");
+    scanf("%d", &tanggal);
+    printf("\nBulan :");
+    scanf("%d", &bulan);
+    printf("\nTahun :");
+    scanf("%d", &Tahun);
+    printf("\nJumlah :");
+    scanf("%d", &jumlah);
+
+  } else if (pilihan == 2) {
+    printf("\t======================================\n");
+    printf("\t--------------Data Keuangan----------\n");
+    printf("\t======================================\n");
+  }
+  return 0;
+}
