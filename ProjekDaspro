@@ -9,13 +9,46 @@ int Tahun;
 int jumlah;
 int bulan2;
 int kembali;
+int TahunBulanan;
+int BulanBulanan;
+int RumusBulanan1;
+int RumusBulanan2;
+int RumusBulanan3;
+int RumusBulanan4;
+int RumusBulanan5;
+int RumusBulanan6;
+int RumusBulanan7;
+int RumusBulanan8;
+int RumusBulanan9;
+int RumusBulanan10;
+int RumusBulanan11;
+int RumusBulanan12;
+
 int t1;
 //Bulan 1
 int BT11,BT12,BT13,BT14,BT15,BT16,BT17,BT18,BT19,BT110,BT111,BT112,BT113,BT114,BT115,BT116,BT117,BT118,BT119,BT120,BT121,BT122,BT123,BT124,BT125,BT126,BT127,BT128,BT129,BT130,bulan1;
 //Bulan 2
 int BT21,BT22,BT23,BT24,BT25,BT26,BT27,BT28,BT29,BT210,BT211,BT212,BT213,BT214,BT215,BT216,BT217,BT218,BT219,BT220,BT221,BT222,BT223,BT224,BT225,BT226,BT227,BT228,BT229,BT230,bulan2;
+//Bulan 3
+int BT31,BT32,BT33,BT34,BT35,BT36,BT37,BT38,BT39,BT310,BT311,BT312,BT313,BT314,BT315,BT316,BT317,BT318,BT319,BT320,BT321,BT322,BT323,BT324,BT325,BT326,BT327,BT328,BT329,BT330,BT331,bulan3;
+//bulan 4
+int BT41,BT42,BT43,BT44,BT45,BT46,BT47,BT48,BT49,BT410,BT411,BT412,BT413,BT414,BT415,BT416,BT417,BT418,BT419,BT420,BT421,BT422,BT423,BT424,BT425,BT426,BT427,BT428,BT429,BT430,bulan4;
 //bulan 5
 int BT51,BT52,BT53,BT54,BT55,BT56,BT57,BT58,BT59,BT510,BT511,BT512,BT513,BT514,BT515,BT516,BT517,BT518,BT519,BT520,BT521,BT522,BT523,BT524,BT525,BT526,BT527,BT528,BT529,BT530,bulan5;
+//Bulan 6
+int BT61,BT62,BT63,BT64,BT65,BT66,BT67,BT68,BT69,BT610,BT611,BT612,BT613,BT614,BT615,BT616,BT617,BT618,BT619,BT620,BT621,BT622,BT623,BT624,BT625,BT626,BT627,BT628,BT629,BT630,bulan6;
+//Bulan 7
+int BT71,BT72,BT73,BT74,BT75,BT76,BT77,BT78,BT79,BT710,BT711,BT712,BT713,BT714,BT715,BT716,BT717,BT718,BT719,BT720,BT721,BT722,BT723,BT724,BT725,BT726,BT727,BT728,BT729,BT730,BT731,bulan7;
+//Bulan 8
+int BT81,BT82,BT83,BT84,BT85,BT86,BT87,BT88,BT89,BT810,BT811,BT812,BT813,BT814,BT815,BT816,BT817,BT818,BT819,BT820,BT821,BT822,BT823,BT824,BT825,BT826,BT827,BT828,BT829,BT830,bulan8;
+//bulan 9
+int BT91,BT92,BT93,BT94,BT95,BT96,BT97,BT98,BT99,BT910,BT911,BT912,BT913,BT914,BT915,BT916,BT917,BT918,BT919,BT920,BT921,BT922,BT923,BT924,BT925,BT926,BT927,BT928,BT929,BT930;
+//bulan 10
+int BT101,BT102,BT103,BT104,BT105,BT106,BT107,BT108,BT109,BT1010,BT1011,BT1012,BT1013,BT1014,BT1015,BT1016,BT1017,BT1018,BT1019,BT1020,BT1021,BT1022,BT1023,BT1024,BT1025,BT1026,BT1027,BT1028,BT1029,BT1030,BT1031;
+//bulan 11
+int BT11111,BT11112,BT11113,BT11114,BT11115,BT11116,BT11117,BT11118,BT11119,BT111110,BT1111,BT1112,BT1113,BT1114,BT1115,BT1116,BT1117,BT1118,BT1119,BT1120,BT1121,BT1122,BT1123,BT1124,BT1125,BT1126,BT1127,BT1128,BT1129,BT1130,BT1131;
+//bulan 12
+int BT1201,BT1202,BT1203,BT1204,BT1205,BT1206,BT1207,BT1208,BT1209,BT1210,BT1211,BT1212,BT1213,BT1214,BT1215,BT1216,BT1217,BT1218,BT1219,BT1220,BT1221,BT1222,BT1223,BT1224,BT1225,BT1226,BT1227,BT1228,BT1229,BT1230,BT1231;
 char b1;
 int ta1;
 
@@ -27,8 +60,9 @@ while (1==1)
   printf("--------Selamat Datang Mutiara--------\n");
   printf("======================================\n");
   printf("1. Input Pengeluaran\n");
-  printf("2. Data Keuangan\n");
-  printf("3. Keluar\n");
+  printf("2. Data Keuangan Harian\n");
+  printf("3. Data Keuangan Bulanan\n");
+  printf("4. Keluar\n");
   printf("Masukkan Pilihan Anda :");
   scanf("%d", &pilihan);
   system("cls");
@@ -44,7 +78,7 @@ while (1==1)
     scanf("%d", &bulan);
     if(bulan == 2) {
       printf("\nTahun :");
-      scanf("%d", &Tahun);
+      scanf("%d", &Tahun);  
       if(tanggal == 1) {
        printf("\nJumlah :");
     scanf("%d", &BT21);
@@ -293,6 +327,270 @@ while (1==1)
     scanf("%d", &BT130);
       }
     }
+
+//bulan 3
+//bulan 3
+else if(bulan == 3) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT31);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT32);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT33);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT34);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT35);
+      }
+      //lanjut
+      if(tanggal == 6) {
+       printf("\nJumlah :");
+    scanf("%d", &BT36);
+      }
+      if(tanggal == 7) {
+       printf("\nJumlah :");
+    scanf("%d", &BT37);
+      }
+      if(tanggal == 8) {
+       printf("\nJumlah :");
+    scanf("%d", &BT38);
+      }
+      if(tanggal == 9) {
+       printf("\nJumlah :");
+    scanf("%d", &BT39);
+      }
+      if(tanggal == 10) {
+       printf("\nJumlah :");
+    scanf("%d", &BT310);
+      }
+      if(tanggal == 11) {
+       printf("\nJumlah :");
+    scanf("%d", &BT311);
+      }
+      if(tanggal == 12) {
+       printf("\nJumlah :");
+    scanf("%d", &BT312);
+      }
+      if(tanggal == 13) {
+       printf("\nJumlah :");
+    scanf("%d", &BT313);
+      }
+      if(tanggal == 14) {
+       printf("\nJumlah :");
+    scanf("%d", &BT314);
+      }
+      if(tanggal == 15) {
+       printf("\nJumlah :");
+    scanf("%d", &BT315);
+      }
+       if(tanggal == 16) {
+       printf("\nJumlah :");
+    scanf("%d", &BT316);
+      }
+      if(tanggal == 17) {
+       printf("\nJumlah :");
+    scanf("%d", &BT317);
+      }
+      if(tanggal == 18) {
+       printf("\nJumlah :");
+    scanf("%d", &BT318);
+      }
+      if(tanggal == 19) {
+       printf("\nJumlah :");
+    scanf("%d", &BT319);
+      }
+      if(tanggal == 20) {
+       printf("\nJumlah :");
+    scanf("%d", &BT320);
+      }
+      if(tanggal == 21) {
+       printf("\nJumlah :");
+    scanf("%d", &BT321);
+      }
+      if(tanggal == 22) {
+       printf("\nJumlah :");
+    scanf("%d", &BT322);
+      }
+      if(tanggal == 23) {
+       printf("\nJumlah :");
+    scanf("%d", &BT323);
+      }
+      if(tanggal == 24) {
+       printf("\nJumlah :");
+    scanf("%d", &BT324);
+      }
+      if(tanggal == 25) {
+       printf("\nJumlah :");
+    scanf("%d", &BT325);
+      }
+       if(tanggal == 26) {
+       printf("\nJumlah :");
+    scanf("%d", &BT326);
+      }
+      if(tanggal == 27) {
+       printf("\nJumlah :");
+    scanf("%d", &BT327);
+      }
+      if(tanggal == 28) {
+       printf("\nJumlah :");
+    scanf("%d", &BT328);
+      }
+      if(tanggal == 29) {
+       printf("\nJumlah :");
+    scanf("%d", &BT329);
+      }
+      if(tanggal == 30) {
+       printf("\nJumlah :");
+    scanf("%d", &BT330);
+      }
+      if(tanggal == 31) {
+       printf("\nJumlah :");
+    scanf("%d", &BT331);
+      }
+  }
+
+
+    //bulan 4
+    //bulan 4
+    else if(bulan == 4) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT41);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT42);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT43);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT44);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT45);
+      }
+      //lanjut
+      if(tanggal == 6) {
+       printf("\nJumlah :");
+    scanf("%d", &BT46);
+      }
+      if(tanggal == 7) {
+       printf("\nJumlah :");
+    scanf("%d", &BT47);
+      }
+      if(tanggal == 8) {
+       printf("\nJumlah :");
+    scanf("%d", &BT48);
+      }
+      if(tanggal == 9) {
+       printf("\nJumlah :");
+    scanf("%d", &BT49);
+      }
+      if(tanggal == 10) {
+       printf("\nJumlah :");
+    scanf("%d", &BT410);
+      }
+      if(tanggal == 11) {
+       printf("\nJumlah :");
+    scanf("%d", &BT411);
+      }
+      if(tanggal == 12) {
+       printf("\nJumlah :");
+    scanf("%d", &BT412);
+      }
+      if(tanggal == 13) {
+       printf("\nJumlah :");
+    scanf("%d", &BT413);
+      }
+      if(tanggal == 14) {
+       printf("\nJumlah :");
+    scanf("%d", &BT414);
+      }
+      if(tanggal == 15) {
+       printf("\nJumlah :");
+    scanf("%d", &BT415);
+      }
+       if(tanggal == 16) {
+       printf("\nJumlah :");
+    scanf("%d", &BT416);
+      }
+      if(tanggal == 17) {
+       printf("\nJumlah :");
+    scanf("%d", &BT417);
+      }
+      if(tanggal == 18) {
+       printf("\nJumlah :");
+    scanf("%d", &BT418);
+      }
+      if(tanggal == 19) {
+       printf("\nJumlah :");
+    scanf("%d", &BT419);
+      }
+      if(tanggal == 20) {
+       printf("\nJumlah :");
+    scanf("%d", &BT420);
+      }
+      if(tanggal == 21) {
+       printf("\nJumlah :");
+    scanf("%d", &BT421);
+      }
+      if(tanggal == 22) {
+       printf("\nJumlah :");
+    scanf("%d", &BT422);
+      }
+      if(tanggal == 23) {
+       printf("\nJumlah :");
+    scanf("%d", &BT423);
+      }
+      if(tanggal == 24) {
+       printf("\nJumlah :");
+    scanf("%d", &BT424);
+      }
+      if(tanggal == 25) {
+       printf("\nJumlah :");
+    scanf("%d", &BT425);
+      }
+       if(tanggal == 26) {
+       printf("\nJumlah :");
+    scanf("%d", &BT426);
+      }
+      if(tanggal == 27) {
+       printf("\nJumlah :");
+    scanf("%d", &BT427);
+      }
+      if(tanggal == 28) {
+       printf("\nJumlah :");
+    scanf("%d", &BT428);
+      }
+      if(tanggal == 29) {
+       printf("\nJumlah :");
+    scanf("%d", &BT429);
+      }
+      if(tanggal == 30) {
+       printf("\nJumlah :");
+    scanf("%d", &BT430);
+      }
+    }
+
+
+
       else if(bulan == 5) {
       printf("\nTahun :");
       scanf("%d", &Tahun);
@@ -418,10 +716,917 @@ while (1==1)
     scanf("%d", &BT530);
       }
     }
+
+
+//bulan 6
+    else if(bulan == 6) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT61);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT62);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT63);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT64);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT65);
+      }
+      //lanjut
+      if(tanggal == 6) {
+       printf("\nJumlah :");
+    scanf("%d", &BT66);
+      }
+      if(tanggal == 7) {
+       printf("\nJumlah :");
+    scanf("%d", &BT67);
+      }
+      if(tanggal == 8) {
+       printf("\nJumlah :");
+    scanf("%d", &BT68);
+      }
+      if(tanggal == 9) {
+       printf("\nJumlah :");
+    scanf("%d", &BT69);
+      }
+      if(tanggal == 10) {
+       printf("\nJumlah :");
+    scanf("%d", &BT610);
+      }
+      if(tanggal == 11) {
+       printf("\nJumlah :");
+    scanf("%d", &BT611);
+      }
+      if(tanggal == 12) {
+       printf("\nJumlah :");
+    scanf("%d", &BT612);
+      }
+      if(tanggal == 13) {
+       printf("\nJumlah :");
+    scanf("%d", &BT613);
+      }
+      if(tanggal == 14) {
+       printf("\nJumlah :");
+    scanf("%d", &BT614);
+      }
+      if(tanggal == 15) {
+       printf("\nJumlah :");
+    scanf("%d", &BT615);
+      }
+       if(tanggal == 16) {
+       printf("\nJumlah :");
+    scanf("%d", &BT616);
+      }
+      if(tanggal == 17) {
+       printf("\nJumlah :");
+    scanf("%d", &BT617);
+      }
+      if(tanggal == 18) {
+       printf("\nJumlah :");
+    scanf("%d", &BT618);
+      }
+      if(tanggal == 19) {
+       printf("\nJumlah :");
+    scanf("%d", &BT619);
+      }
+      if(tanggal == 20) {
+       printf("\nJumlah :");
+    scanf("%d", &BT620);
+      }
+      if(tanggal == 21) {
+       printf("\nJumlah :");
+    scanf("%d", &BT621);
+      }
+      if(tanggal == 22) {
+       printf("\nJumlah :");
+    scanf("%d", &BT622);
+      }
+      if(tanggal == 23) {
+       printf("\nJumlah :");
+    scanf("%d", &BT623);
+      }
+      if(tanggal == 24) {
+       printf("\nJumlah :");
+    scanf("%d", &BT624);
+      }
+      if(tanggal == 25) {
+       printf("\nJumlah :");
+    scanf("%d", &BT625);
+      }
+       if(tanggal == 26) {
+       printf("\nJumlah :");
+    scanf("%d", &BT626);
+      }
+      if(tanggal == 27) {
+       printf("\nJumlah :");
+    scanf("%d", &BT627);
+      }
+      if(tanggal == 28) {
+       printf("\nJumlah :");
+    scanf("%d", &BT628);
+      }
+      if(tanggal == 29) {
+       printf("\nJumlah :");
+    scanf("%d", &BT629);
+      }
+      if(tanggal == 30) {
+       printf("\nJumlah :");
+    scanf("%d", &BT630);
+      }
+    }
+
+//bulan 7
+    else if(bulan == 7) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT71);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT72);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT73);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT74);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT75);
+      }
+      //lanjut
+      if(tanggal == 6) {
+       printf("\nJumlah :");
+    scanf("%d", &BT76);
+      }
+      if(tanggal == 7) {
+       printf("\nJumlah :");
+    scanf("%d", &BT77);
+      }
+      if(tanggal == 8) {
+       printf("\nJumlah :");
+    scanf("%d", &BT68);
+      }
+      if(tanggal == 9) {
+       printf("\nJumlah :");
+    scanf("%d", &BT79);
+      }
+      if(tanggal == 10) {
+       printf("\nJumlah :");
+    scanf("%d", &BT710);
+      }
+      if(tanggal == 11) {
+       printf("\nJumlah :");
+    scanf("%d", &BT711);
+      }
+      if(tanggal == 12) {
+       printf("\nJumlah :");
+    scanf("%d", &BT712);
+      }
+      if(tanggal == 13) {
+       printf("\nJumlah :");
+    scanf("%d", &BT713);
+      }
+      if(tanggal == 14) {
+       printf("\nJumlah :");
+    scanf("%d", &BT714);
+      }
+      if(tanggal == 15) {
+       printf("\nJumlah :");
+    scanf("%d", &BT715);
+      }
+       if(tanggal == 16) {
+       printf("\nJumlah :");
+    scanf("%d", &BT716);
+      }
+      if(tanggal == 17) {
+       printf("\nJumlah :");
+    scanf("%d", &BT717);
+      }
+      if(tanggal == 18) {
+       printf("\nJumlah :");
+    scanf("%d", &BT718);
+      }
+      if(tanggal == 19) {
+       printf("\nJumlah :");
+    scanf("%d", &BT719);
+      }
+      if(tanggal == 20) {
+       printf("\nJumlah :");
+    scanf("%d", &BT720);
+      }
+      if(tanggal == 21) {
+       printf("\nJumlah :");
+    scanf("%d", &BT721);
+      }
+      if(tanggal == 22) {
+       printf("\nJumlah :");
+    scanf("%d", &BT722);
+      }
+      if(tanggal == 23) {
+       printf("\nJumlah :");
+    scanf("%d", &BT723);
+      }
+      if(tanggal == 24) {
+       printf("\nJumlah :");
+    scanf("%d", &BT724);
+      }
+      if(tanggal == 25) {
+       printf("\nJumlah :");
+    scanf("%d", &BT725);
+      }
+       if(tanggal == 26) {
+       printf("\nJumlah :");
+    scanf("%d", &BT726);
+      }
+      if(tanggal == 27) {
+       printf("\nJumlah :");
+    scanf("%d", &BT727);
+      }
+      if(tanggal == 28) {
+       printf("\nJumlah :");
+    scanf("%d", &BT728);
+      }
+      if(tanggal == 29) {
+       printf("\nJumlah :");
+    scanf("%d", &BT729);
+      }
+      if(tanggal == 30) {
+       printf("\nJumlah :");
+    scanf("%d", &BT730);
+      }
+      if(tanggal == 31) {
+       printf("\nJumlah :");
+    scanf("%d", &BT731);
+      }
+  }
+//bulan 8
+    else if(bulan == 8) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT81);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT82);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT83);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT84);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT85);
+      }
+      //lanjut
+      if(tanggal == 6) {
+       printf("\nJumlah :");
+    scanf("%d", &BT86);
+      }
+      if(tanggal == 7) {
+       printf("\nJumlah :");
+    scanf("%d", &BT87);
+      }
+      if(tanggal == 8) {
+       printf("\nJumlah :");
+    scanf("%d", &BT88);
+      }
+      if(tanggal == 9) {
+       printf("\nJumlah :");
+    scanf("%d", &BT89);
+      }
+      if(tanggal == 10) {
+       printf("\nJumlah :");
+    scanf("%d", &BT810);
+      }
+      if(tanggal == 11) {
+       printf("\nJumlah :");
+    scanf("%d", &BT811);
+      }
+      if(tanggal == 12) {
+       printf("\nJumlah :");
+    scanf("%d", &BT812);
+      }
+      if(tanggal == 13) {
+       printf("\nJumlah :");
+    scanf("%d", &BT813);
+      }
+      if(tanggal == 14) {
+       printf("\nJumlah :");
+    scanf("%d", &BT814);
+      }
+      if(tanggal == 15) {
+       printf("\nJumlah :");
+    scanf("%d", &BT815);
+      }
+       if(tanggal == 16) {
+       printf("\nJumlah :");
+    scanf("%d", &BT816);
+      }
+      if(tanggal == 17) {
+       printf("\nJumlah :");
+    scanf("%d", &BT817);
+      }
+      if(tanggal == 18) {
+       printf("\nJumlah :");
+    scanf("%d", &BT818);
+      }
+      if(tanggal == 19) {
+       printf("\nJumlah :");
+    scanf("%d", &BT819);
+      }
+      if(tanggal == 20) {
+       printf("\nJumlah :");
+    scanf("%d", &BT820);
+      }
+      if(tanggal == 21) {
+       printf("\nJumlah :");
+    scanf("%d", &BT821);
+      }
+      if(tanggal == 22) {
+       printf("\nJumlah :");
+    scanf("%d", &BT822);
+      }
+      if(tanggal == 23) {
+       printf("\nJumlah :");
+    scanf("%d", &BT823);
+      }
+      if(tanggal == 24) {
+       printf("\nJumlah :");
+    scanf("%d", &BT824);
+      }
+      if(tanggal == 25) {
+       printf("\nJumlah :");
+    scanf("%d", &BT825);
+      }
+       if(tanggal == 26) {
+       printf("\nJumlah :");
+    scanf("%d", &BT826);
+      }
+      if(tanggal == 27) {
+       printf("\nJumlah :");
+    scanf("%d", &BT827);
+      }
+      if(tanggal == 28) {
+       printf("\nJumlah :");
+    scanf("%d", &BT828);
+      }
+      if(tanggal == 29) {
+       printf("\nJumlah :");
+    scanf("%d", &BT829);
+      }
+      if(tanggal == 30) {
+       printf("\nJumlah :");
+    scanf("%d", &BT830);
+      }
+  }
+
+     else if(bulan == 9) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT91);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT92);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT93);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT94);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT95);
+      }
+      //lanjut
+      if(tanggal == 6) {
+       printf("\nJumlah :");
+    scanf("%d", &BT96);
+      }
+      if(tanggal == 7) {
+       printf("\nJumlah :");
+    scanf("%d", &BT97);
+      }
+      if(tanggal == 8) {
+       printf("\nJumlah :");
+    scanf("%d", &BT98);
+      }
+      if(tanggal == 9) {
+       printf("\nJumlah :");
+    scanf("%d", &BT99);
+      }
+      if(tanggal == 10) {
+       printf("\nJumlah :");
+    scanf("%d", &BT910);
+      }
+      if(tanggal == 11) {
+       printf("\nJumlah :");
+    scanf("%d", &BT911);
+      }
+      if(tanggal == 12) {
+       printf("\nJumlah :");
+    scanf("%d", &BT912);
+      }
+      if(tanggal == 13) {
+       printf("\nJumlah :");
+    scanf("%d", &BT913);
+      }
+      if(tanggal == 14) {
+       printf("\nJumlah :");
+    scanf("%d", &BT914);
+      }
+      if(tanggal == 15) {
+       printf("\nJumlah :");
+    scanf("%d", &BT915);
+      }
+       if(tanggal == 16) {
+       printf("\nJumlah :");
+    scanf("%d", &BT916);
+      }
+      if(tanggal == 17) {
+       printf("\nJumlah :");
+    scanf("%d", &BT917);
+      }
+      if(tanggal == 18) {
+       printf("\nJumlah :");
+    scanf("%d", &BT918);
+      }
+      if(tanggal == 19) {
+       printf("\nJumlah :");
+    scanf("%d", &BT919);
+      }
+      if(tanggal == 20) {
+       printf("\nJumlah :");
+    scanf("%d", &BT920);
+      }
+      if(tanggal == 21) {
+       printf("\nJumlah :");
+    scanf("%d", &BT921);
+      }
+      if(tanggal == 22) {
+       printf("\nJumlah :");
+    scanf("%d", &BT922);
+      }
+      if(tanggal == 23) {
+       printf("\nJumlah :");
+    scanf("%d", &BT923);
+      }
+      if(tanggal == 24) {
+       printf("\nJumlah :");
+    scanf("%d", &BT924);
+      }
+      if(tanggal == 25) {
+       printf("\nJumlah :");
+    scanf("%d", &BT925);
+      }
+       if(tanggal == 26) {
+       printf("\nJumlah :");
+    scanf("%d", &BT926);
+      }
+      if(tanggal == 27) {
+       printf("\nJumlah :");
+    scanf("%d", &BT927);
+      }
+      if(tanggal == 28) {
+       printf("\nJumlah :");
+    scanf("%d", &BT928);
+      }
+      if(tanggal == 29) {
+       printf("\nJumlah :");
+    scanf("%d", &BT929);
+      }
+      if(tanggal == 30) {
+       printf("\nJumlah :");
+    scanf("%d", &BT930);
+      }
+    }
+
+    //bulan10
+    else if(bulan == 10) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT101);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT102);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT103);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT104);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT105);
+      }
+      //lanjut
+      if(tanggal == 6) {
+       printf("\nJumlah :");
+    scanf("%d", &BT106);
+      }
+      if(tanggal == 7) {
+       printf("\nJumlah :");
+    scanf("%d", &BT107);
+      }
+      if(tanggal == 8) {
+       printf("\nJumlah :");
+    scanf("%d", &BT108);
+      }
+      if(tanggal == 9) {
+       printf("\nJumlah :");
+    scanf("%d", &BT109);
+      }
+      if(tanggal == 10) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1010);
+      }
+      if(tanggal == 11) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1011);
+      }
+      if(tanggal == 12) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1012);
+      }
+      if(tanggal == 13) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1013);
+      }
+      if(tanggal == 14) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1014);
+      }
+      if(tanggal == 15) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1015);
+      }
+       if(tanggal == 16) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1016);
+      }
+      if(tanggal == 17) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1017);
+      }
+      if(tanggal == 18) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1018);
+      }
+      if(tanggal == 19) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1019);
+      }
+      if(tanggal == 20) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1020);
+      }
+      if(tanggal == 21) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1021);
+      }
+      if(tanggal == 22) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1022);
+      }
+      if(tanggal == 23) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1023);
+      }
+      if(tanggal == 24) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1024);
+      }
+      if(tanggal == 25) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1025);
+      }
+       if(tanggal == 26) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1026);
+      }
+      if(tanggal == 27) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1027);
+      }
+      if(tanggal == 28) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1028);
+      }
+      if(tanggal == 29) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1029);
+      }
+      if(tanggal == 30) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1030);
+      }
+      if(tanggal == 31) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1031);
+      }
+    }
+
+    //bulan11
+    else if(bulan == 11) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11111);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11112);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11113);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11114);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11115);
+      }
+      //lanjut
+      if(tanggal == 6) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11116);
+      }
+      if(tanggal == 7) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11117);
+      }
+      if(tanggal == 8) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11118);
+      }
+      if(tanggal == 9) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11119);
+      }
+      if(tanggal == 10) {
+       printf("\nJumlah :");
+    scanf("%d", &BT111110);
+      }
+      if(tanggal == 11) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1111);
+      }
+      if(tanggal == 12) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1112);
+      }
+      if(tanggal == 13) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1113);
+      }
+      if(tanggal == 14) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1114);
+      }
+      if(tanggal == 15) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1115);
+      }
+       if(tanggal == 16) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1116);
+      }
+      if(tanggal == 17) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1117);
+      }
+      if(tanggal == 18) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1118);
+      }
+      if(tanggal == 19) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1119);
+      }
+      if(tanggal == 20) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1120);
+      }
+      if(tanggal == 21) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1121);
+      }
+      if(tanggal == 22) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1122);
+      }
+      if(tanggal == 23) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1123);
+      }
+      if(tanggal == 24) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1124);
+      }
+      if(tanggal == 25) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1125);
+      }
+       if(tanggal == 26) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1126);
+      }
+      if(tanggal == 27) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1127);
+      }
+      if(tanggal == 28) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1128);
+      }
+      if(tanggal == 29) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1129);
+      }
+      if(tanggal == 30) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1130);
+      }
+      if(tanggal == 31) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1131);
+      }
+    }
+
+
+//bulan12
+else if(bulan == 12) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1201);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1202);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1203);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1204);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1205);
+      }
+      //lanjut
+      if(tanggal == 6) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1206);
+      }
+      if(tanggal == 7) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1207);
+      }
+      if(tanggal == 8) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1208);
+      }
+      if(tanggal == 9) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1209);
+      }
+      if(tanggal == 10) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1210);
+      }
+      if(tanggal == 11) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1211);
+      }
+      if(tanggal == 12) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1212);
+      }
+      if(tanggal == 13) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1213);
+      }
+      if(tanggal == 14) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1214);
+      }
+      if(tanggal == 15) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1215);
+      }
+       if(tanggal == 16) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1216);
+      }
+      if(tanggal == 17) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1217);
+      }
+      if(tanggal == 18) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1218);
+      }
+      if(tanggal == 19) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1219);
+      }
+      if(tanggal == 20) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1220);
+      }
+      if(tanggal == 21) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1221);
+      }
+      if(tanggal == 22) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1222);
+      }
+      if(tanggal == 23) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1223);
+      }
+      if(tanggal == 24) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1224);
+      }
+      if(tanggal == 25) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1225);
+      }
+       if(tanggal == 26) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1226);
+      }
+      if(tanggal == 27) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1227);
+      }
+      if(tanggal == 28) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1228);
+      }
+      if(tanggal == 29) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1229);
+      }
+      if(tanggal == 30) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1230);
+      }
+      if(tanggal == 31) {
+       printf("\nJumlah :");
+    scanf("%d", &BT1231);
+      }
+    }
+
+
     break;
     case 2:
      printf("\t======================================\n");
-    printf("\t--------------Data Keuangan----------\n");
+    printf("\t---------Data Keuangan Harian----------\n");
     printf("\t======================================\n");
           //system("cls");
       printf("");
@@ -621,6 +1826,107 @@ while (1==1)
         printf("%d\n", BT229);
       }
 }
+
+//bulan 3
+//Bulan 3
+else if(b1 == 3) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT31);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT32);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT33);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT34);
+      }
+      if(tanggal == 5) {
+        printf("%d\n", BT35);
+      }
+      if(tanggal == 6) {
+        printf("%d\n", BT36);
+      }
+      if(tanggal == 7) {
+        printf("%d\n", BT37);
+      }
+      if(tanggal == 8) {
+        printf("%d\n", BT38);
+      }
+      if(tanggal == 9) {
+        printf("%d\n", BT39);
+      }
+      if(tanggal == 10) {
+        printf("%d\n", BT310);
+      }
+      if(tanggal == 11) {
+        printf("%d\n", BT311);
+      }
+      if(tanggal == 12) {
+        printf("%d\n", BT312);
+      }
+      if(tanggal == 13) {
+        printf("%d\n", BT313);
+      }
+      if(tanggal == 14) {
+        printf("%d\n", BT314);
+      }
+      if(tanggal == 15) {
+        printf("%d\n", BT315);
+      }
+      if(tanggal == 16) {
+        printf("%d\n", BT316);
+      }
+      if(tanggal == 17) {
+        printf("%d\n", BT317);
+      }
+      if(tanggal == 18) {
+        printf("%d\n", BT318);
+      }
+      if(tanggal == 19) {
+        printf("%d\n", BT319);
+      }
+      if(tanggal == 20) {
+        printf("%d\n", BT320);
+      }
+      if(tanggal == 21) {
+        printf("%d\n", BT321);
+      }
+      if(tanggal == 22) {
+        printf("%d\n", BT322);
+      }
+      if(tanggal == 23) {
+        printf("%d\n", BT323);
+      }
+      if(tanggal == 24) {
+        printf("%d\n", BT324);
+      }
+      if(tanggal == 25) {
+        printf("%d\n", BT325);
+      }
+      if(tanggal == 26) {
+        printf("%d\n", BT326);
+      }
+      if(tanggal == 27) {
+        printf("%d\n", BT327);
+      }
+      if(tanggal == 28) {
+        printf("%d\n", BT328);	
+      }
+      if(tanggal == 29) {
+        printf("%d\n", BT329);
+      }
+      if(tanggal == 30) {
+        printf("%d\n", BT330);
+      }
+      if(tanggal == 31) {
+        printf("%d\n", BT331);
+      }
+  }
+
 else if(b1 == 5) {
       printf("");
       scanf("%d", &ta1);//tanggal
@@ -721,11 +2027,893 @@ else if(b1 == 5) {
         printf("%d\n", BT530);
       }
 }
+
+//Bulan 4}
+else if(b1 == 4) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT41);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT42);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT43);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT44);
+      }
+      //lanjut bg
+      if(tanggal == 5) {
+        printf("%d\n", BT45);
+      }
+      if(tanggal == 6) {
+        printf("%d\n", BT46);
+      }
+      if(tanggal == 7) {
+        printf("%d\n", BT47);
+      }
+      if(tanggal == 8) {
+        printf("%d\n", BT48);
+      }
+      //lanjut bg
+      if(tanggal == 9) {
+        printf("%d\n", BT49);
+      }
+      if(tanggal == 10) {
+        printf("%d\n", BT410);
+      }
+      if(tanggal == 11) {
+        printf("%d\n", BT411);
+      }
+      if(tanggal == 12) {
+        printf("%d\n", BT412);
+      }
+      //lanjut bg
+      if(tanggal == 13) {
+        printf("%d\n", BT413);
+      }
+      if(tanggal == 14) {
+        printf("%d\n", BT414);
+      }
+      if(tanggal == 15) {
+        printf("%d\n", BT415);
+      }
+      if(tanggal == 16) {
+        printf("%d\n", BT416);
+      }
+      ///lanjut bg
+      if(tanggal == 17) {
+        printf("%d\n", BT417);
+      }
+      if(tanggal == 18) {
+        printf("%d\n", BT418);
+      }
+      if(tanggal == 19) {
+        printf("%d\n", BT419);
+      }
+      if(tanggal == 20) {
+        printf("%d\n", BT420);
+      }
+      //lanjut bg
+      if(tanggal == 21) {
+        printf("%d\n", BT421);
+      }
+      if(tanggal == 22) {
+        printf("%d\n", BT422);
+      }
+      if(tanggal == 23) {
+        printf("%d\n", BT423);
+      }
+      if(tanggal == 24) {
+        printf("%d\n", BT424);
+      }
+      //lanjut bg
+      if(tanggal == 25) {
+        printf("%d\n", BT425);
+      }
+      if(tanggal == 26) {
+        printf("%d\n", BT426);
+      }
+      if(tanggal == 27) {
+        printf("%d\n", BT427);
+      }
+      if(tanggal == 28) {
+        printf("%d\n", BT428);
+      }
+      if(tanggal == 29) {
+        printf("%d\n", BT429);
+      }
+      if(tanggal == 30) {
+        printf("%d\n", BT430);
+      }
+}
+
+else if(b1 == 6) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT61);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT62);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT63);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT64);
+      }
+      //lanjut bg
+      if(tanggal == 5) {
+        printf("%d\n", BT65);
+      }
+      if(tanggal == 6) {
+        printf("%d\n", BT66);
+      }
+      if(tanggal == 7) {
+        printf("%d\n", BT67);
+      }
+      if(tanggal == 8) {
+        printf("%d\n", BT68);
+      }
+      //lanjut bg
+      if(tanggal == 9) {
+        printf("%d\n", BT69);
+      }
+      if(tanggal == 10) {
+        printf("%d\n", BT610);
+      }
+      if(tanggal == 11) {
+        printf("%d\n", BT611);
+      }
+      if(tanggal == 12) {
+        printf("%d\n", BT612);
+      }
+      //lanjut bg
+      if(tanggal == 13) {
+        printf("%d\n", BT613);
+      }
+      if(tanggal == 14) {
+        printf("%d\n", BT614);
+      }
+      if(tanggal == 15) {
+        printf("%d\n", BT615);
+      }
+      if(tanggal == 16) {
+        printf("%d\n", BT616);
+      }
+      ///lanjut bg
+      if(tanggal == 17) {
+        printf("%d\n", BT617);
+      }
+      if(tanggal == 18) {
+        printf("%d\n", BT618);
+      }
+      if(tanggal == 19) {
+        printf("%d\n", BT619);
+      }
+      if(tanggal == 20) {
+        printf("%d\n", BT620);
+      }
+      //lanjut bg
+      if(tanggal == 21) {
+        printf("%d\n", BT621);
+      }
+      if(tanggal == 22) {
+        printf("%d\n", BT622);
+      }
+      if(tanggal == 23) {
+        printf("%d\n", BT623);
+      }
+      if(tanggal == 24) {
+        printf("%d\n", BT624);
+      }
+      //lanjut bg
+      if(tanggal == 25) {
+        printf("%d\n", BT625);
+      }
+      if(tanggal == 26) {
+        printf("%d\n", BT626);
+      }
+      if(tanggal == 27) {
+        printf("%d\n", BT627);
+      }
+      if(tanggal == 28) {
+        printf("%d\n", BT628);	
+      }
+      if(tanggal == 29) {
+        printf("%d\n", BT629);
+      }
+      if(tanggal == 30) {
+        printf("%d\n", BT630);
+      }
+}
+//bulan 7
+//Bulan 7
+else if(b1 == 7) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT71);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT72);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT73);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT74);
+      }
+      //lanjut bg
+      if(tanggal == 5) {
+        printf("%d\n", BT75);
+      }
+      if(tanggal == 6) {
+        printf("%d\n", BT76);
+      }
+      if(tanggal == 7) {
+        printf("%d\n", BT77);
+      }
+      if(tanggal == 8) {
+        printf("%d\n", BT78);
+      }
+      //lanjut bg
+      if(tanggal == 9) {
+        printf("%d\n", BT79);
+      }
+      if(tanggal == 10) {
+        printf("%d\n", BT710);
+      }
+      if(tanggal == 11) {
+        printf("%d\n", BT711);
+      }
+      if(tanggal == 12) {
+        printf("%d\n", BT712);
+      }
+      //lanjut bg
+      if(tanggal == 13) {
+        printf("%d\n", BT713);
+      }
+      if(tanggal == 14) {
+        printf("%d\n", BT714);
+      }
+      if(tanggal == 15) {
+        printf("%d\n", BT715);
+      }
+      if(tanggal == 16) {
+        printf("%d\n", BT716);
+      }
+      ///lanjut bg
+      if(tanggal == 17) {
+        printf("%d\n", BT717);
+      }
+      if(tanggal == 18) {
+        printf("%d\n", BT718);
+      }
+      if(tanggal == 19) {
+        printf("%d\n", BT719);
+      }
+      if(tanggal == 20) {
+        printf("%d\n", BT720);
+      }
+      //lanjut bg
+      if(tanggal == 21) {
+        printf("%d\n", BT721);
+      }
+      if(tanggal == 22) {
+        printf("%d\n", BT722);
+      }
+      if(tanggal == 23) {
+        printf("%d\n", BT723);
+      }
+      if(tanggal == 24) {
+        printf("%d\n", BT724);
+      }
+      //lanjut bg
+      if(tanggal == 25) {
+        printf("%d\n", BT725);
+      }
+      if(tanggal == 26) {
+        printf("%d\n", BT726);
+      }
+      if(tanggal == 27) {
+        printf("%d\n", BT727);
+      }
+      if(tanggal == 28) {
+        printf("%d\n", BT728);	
+      }
+      if(tanggal == 29) {
+        printf("%d\n", BT729);
+      }
+      if(tanggal == 30) {
+        printf("%d\n", BT730);
+      }
+      if(tanggal == 31) {
+        printf("%d\n", BT731);
+      }
+  }
+
+//Bulan 8
+else if(b1 == 8) {
+       printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT81);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT82);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT83);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT84);
+      }
+      //lanjut bg
+      if(tanggal == 5) {
+        printf("%d\n", BT85);
+      }
+      if(tanggal == 6) {
+        printf("%d\n", BT86);
+      }
+      if(tanggal == 7) {
+        printf("%d\n", BT87);
+      }
+      if(tanggal == 8) {
+        printf("%d\n", BT88);
+      }
+      //lanjut bg
+      if(tanggal == 9) {
+        printf("%d\n", BT89);
+      }
+      if(tanggal == 10) {
+        printf("%d\n", BT810);
+      }
+      if(tanggal == 11) {
+        printf("%d\n", BT811);
+      }
+      if(tanggal == 12) {
+        printf("%d\n", BT812);
+      }
+      //lanjut bg
+      if(tanggal == 13) {
+        printf("%d\n", BT813);
+      }
+      if(tanggal == 14) {
+        printf("%d\n", BT814);
+      }
+      if(tanggal == 15) {
+        printf("%d\n", BT815);
+      }
+      if(tanggal == 16) {
+        printf("%d\n", BT816);
+      }
+      ///lanjut bg
+      if(tanggal == 17) {
+        printf("%d\n", BT817);
+      }
+      if(tanggal == 18) {
+        printf("%d\n", BT818);
+      }
+      if(tanggal == 19) {
+        printf("%d\n", BT819);
+      }
+      if(tanggal == 20) {
+        printf("%d\n", BT820);
+      }
+      //lanjut bg
+      if(tanggal == 21) {
+        printf("%d\n", BT821);
+      }
+      if(tanggal == 22) {
+        printf("%d\n", BT822);
+      }
+      if(tanggal == 23) {
+        printf("%d\n", BT823);
+      }
+      if(tanggal == 24) {
+        printf("%d\n", BT824);
+      }
+      //lanjut bg
+      if(tanggal == 25) {
+        printf("%d\n", BT825);
+      }
+      if(tanggal == 26) {
+        printf("%d\n", BT826);
+      }
+      if(tanggal == 27) {
+        printf("%d\n", BT827);
+      }
+      if(tanggal == 28) {
+        printf("%d\n", BT828);	
+      }
+      if(tanggal == 29) {
+        printf("%d\n", BT829);
+      }
+      if(tanggal == 30) {
+        printf("%d\n", BT830);
+      }
+  }
+
+
+ else if(b1 == 9) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT91);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT92);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT93);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT94);
+      }
+      //lanjut bg
+      if(tanggal == 5) {
+        printf("%d\n", BT95);
+      }
+      if(tanggal == 6) {
+        printf("%d\n", BT96);
+      }
+      if(tanggal == 7) {
+        printf("%d\n", BT97);
+      }
+      if(tanggal == 8) {
+        printf("%d\n", BT98);
+      }
+      //lanjut bg
+      if(tanggal == 9) {
+        printf("%d\n", BT99);
+      }
+      if(tanggal == 10) {
+        printf("%d\n", BT910);
+      }
+      if(tanggal == 11) {
+        printf("%d\n", BT911);
+      }
+      if(tanggal == 12) {
+        printf("%d\n", BT912);
+      }
+      //lanjut bg
+      if(tanggal == 13) {
+        printf("%d\n", BT913);
+      }
+      if(tanggal == 14) {
+        printf("%d\n", BT914);
+      }
+      if(tanggal == 15) {
+        printf("%d\n", BT915);
+      }
+      if(tanggal == 16) {
+        printf("%d\n", BT916);
+      }
+      ///lanjut bg
+      if(tanggal == 17) {
+        printf("%d\n", BT917);
+      }
+      if(tanggal == 18) {
+        printf("%d\n", BT918);
+      }
+      if(tanggal == 19) {
+        printf("%d\n", BT919);
+      }
+      if(tanggal == 20) {
+        printf("%d\n", BT920);
+      }
+      //lanjut bg
+      if(tanggal == 21) {
+        printf("%d\n", BT921);
+      }
+      if(tanggal == 22) {
+        printf("%d\n", BT922);
+      }
+      if(tanggal == 23) {
+        printf("%d\n", BT923);
+      }
+      if(tanggal == 24) {
+        printf("%d\n", BT924);
+      }
+      //lanjut bg
+      if(tanggal == 25) {
+        printf("%d\n", BT925);
+      }
+      if(tanggal == 26) {
+        printf("%d\n", BT926);
+      }
+      if(tanggal == 27) { 
+        printf("%d\n", BT927);
+      }
+      if(tanggal == 28) {
+        printf("%d\n", BT928);
+      }
+      if(tanggal == 29) {
+        printf("%d\n", BT929);
+      }
+      if(tanggal == 30) {
+        printf("%d\n", BT930);
+      }
+}
+
+ else if(b1 == 10) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT101);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT102);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT103);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT104);
+      }
+      //lanjut bg
+      if(tanggal == 5) {
+        printf("%d\n", BT105);
+      }
+      if(tanggal == 6) {
+        printf("%d\n", BT106);
+      }
+      if(tanggal == 7) {
+        printf("%d\n", BT107);
+      }
+      if(tanggal == 8) {
+        printf("%d\n", BT108);
+      }
+      //lanjut bg
+      if(tanggal == 9) {
+        printf("%d\n", BT109);
+      }
+      if(tanggal == 10) {
+        printf("%d\n", BT1010);
+      }
+      if(tanggal == 11) {
+        printf("%d\n", BT1011);
+      }
+      if(tanggal == 12) {
+        printf("%d\n", BT1012);
+      }
+      //lanjut bg
+      if(tanggal == 13) {
+        printf("%d\n", BT1013);
+      }
+      if(tanggal == 14) {
+        printf("%d\n", BT1014);
+      }
+      if(tanggal == 15) {
+        printf("%d\n", BT1015);
+      }
+      if(tanggal == 16) {
+        printf("%d\n", BT1016);
+      }
+      ///lanjut bg
+      if(tanggal == 17) {
+        printf("%d\n", BT1017);
+      }
+      if(tanggal == 18) {
+        printf("%d\n", BT1018);
+      }
+      if(tanggal == 19) {
+        printf("%d\n", BT1019);
+      }
+      if(tanggal == 20) {
+        printf("%d\n", BT1020);
+      }
+      //lanjut bg
+      if(tanggal == 21) {
+        printf("%d\n", BT1021);
+      }
+      if(tanggal == 22) {
+        printf("%d\n", BT1022);
+      }
+      if(tanggal == 23) {
+        printf("%d\n", BT1023);
+      }
+      if(tanggal == 24) {
+        printf("%d\n", BT1024);
+      }
+      //lanjut bg
+      if(tanggal == 25) {
+        printf("%d\n", BT1025);
+      }
+      if(tanggal == 26) {
+        printf("%d\n", BT1026);
+      }
+      if(tanggal == 27) { 
+        printf("%d\n", BT1027);
+      }
+      if(tanggal == 28) {
+        printf("%d\n", BT1028);
+      }
+      if(tanggal == 29) {
+        printf("%d\n", BT1029);
+      }
+      if(tanggal == 30) {
+        printf("%d\n", BT1030);
+      }
+      if(tanggal == 31) {
+        printf("%d\n", BT1031);
+      }
+}
+
+//bulan11
+else if(b1 == 11) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT11111);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT11112);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT11113);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT11114);
+      }
+      //lanjut bg
+      if(tanggal == 5) {
+        printf("%d\n", BT11115);
+      }
+      if(tanggal == 6) {
+        printf("%d\n", BT11116);
+      }
+      if(tanggal == 7) {
+        printf("%d\n", BT11117);
+      }
+      if(tanggal == 8) {
+        printf("%d\n", BT11118);
+      }
+      //lanjut bg
+      if(tanggal == 9) {
+        printf("%d\n", BT11119);
+      }
+      if(tanggal == 10) {
+        printf("%d\n", BT111110);
+      }
+      if(tanggal == 11) {
+        printf("%d\n", BT1111);
+      }
+      if(tanggal == 12) {
+        printf("%d\n", BT1112);
+      }
+      //lanjut bg
+      if(tanggal == 13) {
+        printf("%d\n", BT1113);
+      }
+      if(tanggal == 14) {
+        printf("%d\n", BT1114);
+      }
+      if(tanggal == 15) {
+        printf("%d\n", BT1115);
+      }
+      if(tanggal == 16) {
+        printf("%d\n", BT1116);
+      }
+      ///lanjut bg
+      if(tanggal == 17) {
+        printf("%d\n", BT1117);
+      }
+      if(tanggal == 18) {
+        printf("%d\n", BT1118);
+      }
+      if(tanggal == 19) {
+        printf("%d\n", BT1119);
+      }
+      if(tanggal == 20) {
+        printf("%d\n", BT1120);
+      }
+      //lanjut bg
+      if(tanggal == 21) {
+        printf("%d\n", BT1121);
+      }
+      if(tanggal == 22) {
+        printf("%d\n", BT1122);
+      }
+      if(tanggal == 23) {
+        printf("%d\n", BT1123);
+      }
+      if(tanggal == 24) {
+        printf("%d\n", BT1124);
+      }
+      //lanjut bg
+      if(tanggal == 25) {
+        printf("%d\n", BT1125);
+      }
+      if(tanggal == 26) {
+        printf("%d\n", BT1126);
+      }
+      if(tanggal == 27) { 
+        printf("%d\n", BT1127);
+      }
+      if(tanggal == 28) {
+        printf("%d\n", BT1128);
+      }
+      if(tanggal == 29) {
+        printf("%d\n", BT1129);
+      }
+      if(tanggal == 30) {
+        printf("%d\n", BT1130);
+      }
+}
+
+else if(b1 == 12) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT1201);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT1202);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT1203);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT1204);
+      }
+      //lanjut bg
+      if(tanggal == 5) {
+        printf("%d\n", BT1205);
+      }
+      if(tanggal == 6) {
+        printf("%d\n", BT1206);
+      }
+      if(tanggal == 7) {
+        printf("%d\n", BT1207);
+      }
+      if(tanggal == 8) {
+        printf("%d\n", BT1208);
+      }
+      //lanjut bg
+      if(tanggal == 9) {
+        printf("%d\n", BT1209);
+      }
+      if(tanggal == 10) {
+        printf("%d\n", BT1210);
+      }
+      if(tanggal == 11) {
+        printf("%d\n", BT1211);
+      }
+      if(tanggal == 12) {
+        printf("%d\n", BT1212);
+      }
+      //lanjut bg
+      if(tanggal == 13) {
+        printf("%d\n", BT1213);
+      }
+      if(tanggal == 14) {
+        printf("%d\n", BT1214);
+      }
+      if(tanggal == 15) {
+        printf("%d\n", BT1215);
+      }
+      if(tanggal == 16) {
+        printf("%d\n", BT1216);
+      }
+      ///lanjut bg
+      if(tanggal == 17) {
+        printf("%d\n", BT1217);
+      }
+      if(tanggal == 18) {
+        printf("%d\n", BT1218);
+      }
+      if(tanggal == 19) {
+        printf("%d\n", BT1219);
+      }
+      if(tanggal == 20) {
+        printf("%d\n", BT1220);
+      }
+      //lanjut bg
+      if(tanggal == 21) {
+        printf("%d\n", BT1221);
+      }
+      if(tanggal == 22) {
+        printf("%d\n", BT1222);
+      }
+      if(tanggal == 23) {
+        printf("%d\n", BT1223);
+      }
+      if(tanggal == 24) {
+        printf("%d\n", BT1224);
+      }
+      //lanjut bg
+      if(tanggal == 25) {
+        printf("%d\n", BT1225);
+      }
+      if(tanggal == 26) {
+        printf("%d\n", BT1226);
+      }
+      if(tanggal == 27) { 
+        printf("%d\n", BT1227);
+      }
+      if(tanggal == 28) {
+        printf("%d\n", BT1228);
+      }
+      if(tanggal == 29) {
+        printf("%d\n", BT1229);
+      }
+      if(tanggal == 30) {
+        printf("%d\n", BT1230);
+      }
+      if(tanggal == 31) {
+        printf("%d\n", BT1231);
+      }
+}
+
+
  break;
- case 3:
-  if(pilihan == 3) {
+ case 4:
+  if(pilihan == 4) {
     exit(0);
   }
+  case 3:
+    printf("\t======================================\n");
+    printf("\t---------Data Keuangan Bulanan----------\n");
+    printf("\t======================================\n");
+    printf("");
+    scanf("%d", &TahunBulanan);
+    printf("");
+    scanf("%d", &BulanBulanan);
+    if(BulanBulanan == 1) {
+
+    RumusBulanan1 = BT11+BT12+BT13+BT14+BT15+BT16+BT17+BT18+BT19+BT110+BT111+BT112+BT113+BT114+BT115+BT116+BT117+BT118+BT119+BT120+BT121+BT122+BT123+BT124+BT125+BT126+BT127+BT128+BT129+BT130;
+    printf("%d\n", RumusBulanan1);
+    }
+    else if(BulanBulanan == 2) {
+      RumusBulanan2 = BT21+BT22+BT23+BT24+BT25+BT26+BT27+BT28+BT29+BT210+BT211+BT212+BT213+BT214+BT215+BT216+BT217+BT218+BT219+BT220+BT221+BT222+BT223+BT224+BT225+BT226+BT227+BT228+BT229+BT230;
+      printf("%d\n", RumusBulanan2);
+    }
+    else if(BulanBulanan == 3) {
+      RumusBulanan3 = BT31+BT32+BT33+BT34+BT35+BT36+BT37+BT38+BT39+BT310+BT311+BT312+BT313+BT314+BT315+BT316+BT317+BT318+BT319+BT320+BT321+BT322+BT323+BT324+BT325+BT326+BT327+BT328+BT329+BT330+BT331;
+      printf("%d\n", RumusBulanan3);
+    }
+    else if(BulanBulanan == 4) {
+      RumusBulanan4 = BT41+BT42+BT43+BT44+BT45+BT46+BT47+BT48+BT49+BT410+BT411+BT412+BT413+BT414+BT415+BT416+BT417+BT418+BT419+BT420+BT421+BT422+BT423+BT424+BT425+BT426+BT427+BT428+BT429+BT430;
+      printf("%d\n", RumusBulanan4);
+    }
+    else if(BulanBulanan == 5) {
+      RumusBulanan5 = BT51+BT52+BT53+BT54+BT55+BT56+BT57+BT58+BT59+BT510+BT511+BT512+BT513+BT514+BT515+BT516+BT517+BT518+BT519+BT520+BT521+BT522+BT523+BT524+BT525+BT526+BT527+BT528+BT529+BT530;
+      printf("%d\n", RumusBulanan5);
+    }
+    else if(BulanBulanan == 6) {
+      RumusBulanan6 = BT61+BT62+BT63+BT64+BT65+BT66+BT67+BT68+BT69+BT610+BT611+BT612+BT613+BT614+BT615+BT616+BT617+BT618+BT619+BT620+BT621+BT622+BT623+BT624+BT625+BT626+BT627+BT628+BT629+BT630;
+      printf("%d\n", RumusBulanan6);
+    }
+    else if(BulanBulanan == 7) {
+      RumusBulanan7 = BT71+BT72+BT73+BT74+BT75+BT76+BT77+BT78+BT79+BT710+BT711+BT712+BT713+BT714+BT715+BT716+BT717+BT718+BT719+BT720+BT721+BT722+BT723+BT724+BT725+BT726+BT727+BT728+BT729+BT730+BT731;
+      printf("%d\n", RumusBulanan7);
+    }
+    else if(BulanBulanan == 8) {
+      RumusBulanan8 = BT81+BT82+BT83+BT84+BT85+BT86+BT87+BT88+BT89+BT810+BT811+BT812+BT813+BT14+BT815+BT816+BT817+BT818+BT819+BT820+BT821+BT822+BT823+BT824+BT825+BT826+BT827+BT828+BT829+BT830;
+      printf("%d\n", RumusBulanan8);
+    }
+    else if(BulanBulanan == 9) {
+      RumusBulanan9 = BT91+BT92+BT93+BT94+BT95+BT96+BT97+BT98+BT99+BT910+BT911+BT912+BT913+BT914+BT915+BT916+BT917+BT918+BT919+BT920+BT921+BT922+BT923+BT924+BT925+BT926+BT927+BT928+BT929+BT930;
+      printf("%d\n", RumusBulanan9);
+    }
+    else if(BulanBulanan == 10) {
+      RumusBulanan10 = BT101+BT102+BT103+BT104+BT105+BT106+BT107+BT108+BT109+BT1010+BT1011+BT1012+BT1013+BT1014+BT1015+BT1016+BT1017+BT1018+BT1019+BT1020+BT1021+BT1022+BT1023+BT1024+BT1025+BT1026+BT1027+BT1028+BT1029+BT1030+BT1031;
+      printf("%d\n", RumusBulanan10);
+    }
+    else if(BulanBulanan == 11) {
+      RumusBulanan11 = BT11111+BT11112+BT11113+BT11114+BT11115+BT11116+BT11117+BT11118+BT11119+BT111110+BT1111+BT1112+BT1113+BT1114+BT1115+BT1116+BT1117+BT1118+BT1119+BT1120+BT1121+BT1122+BT1123+BT1124+BT1125+BT1126+BT1127+BT1128+BT1129+BT1130+BT1131;
+      printf("%d\n", RumusBulanan11);
+    }
+    else if(BulanBulanan == 12) {
+      RumusBulanan12 = BT1201+BT1202+BT1203+BT1204+BT1205+BT1206+BT1207+BT1208+BT1209+BT1210+BT1211+BT1212+BT1213+BT1214+BT1215+BT1216+BT1217+BT1218+BT1219+BT1220+BT1221+BT1222+BT1223+BT1224+BT1225+BT1226+BT1227+BT1228+BT1229+BT1230+BT1231;
+      printf("%d\n", RumusBulanan12);
+    }
+  break;
   }//switch
 
 
@@ -735,6 +2923,10 @@ else if(b1 == 5) {
     /* code */
   return 0; 
 }
+
+
+
+
 
 
 
