@@ -90,125 +90,125 @@ while (1==1)
       printf("\nTahun   : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah : ");
+       printf("\nJumlah  : ");
     scanf("%d", &BT21);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT22);
       }
       if(tanggal == 3) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT23);
       }
       if(tanggal == 4) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT24);
       }
       //lanjut bg
       if(tanggal == 5) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT25);
       }
       if(tanggal == 6) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT26);
       }
       if(tanggal == 7) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT27);
       }
       if(tanggal == 8) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT28);
       }
       //lanjut bg
       if(tanggal == 9) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT29);
       }
       if(tanggal == 10) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT210);
       }
       if(tanggal == 11) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT211);
       }
       if(tanggal == 12) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT212);
       }
       //lanjut bg
        if(tanggal == 13) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT213);
       }
       if(tanggal == 14) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT214);
       }
       if(tanggal == 15) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT215);
       }
       if(tanggal == 16) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT216);
       }
       //lanjut bg
        if(tanggal == 17) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT217);
       }
       if(tanggal == 18) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT218);
       }
       if(tanggal == 19) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT219);
       }
       if(tanggal == 20) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT220);
       }
       //lanjut bg
        if(tanggal == 21) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT221);
       }
       if(tanggal == 22) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT222);
       }
       if(tanggal == 23) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT223);
       }
       if(tanggal == 24) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT224);
       }
       //lanjut bg
       if(tanggal == 25) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT225);
       }
       if(tanggal == 26) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT226);
       }
       if(tanggal == 27) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : "); 
     scanf("%d", &BT227);
       }
       if(tanggal == 28) {
-       printf("\nJumlah :");
-    scanf("%d", &BT228);
+       printf("\nJumlah  : ");
+    scanf("%d", &BT228); 
       }
       if(tanggal == 29) {
-       printf("\nJumlah :");
+       printf("\nJumlah  : ");
     scanf("%d", &BT229);
       }
     }
@@ -223,28 +223,28 @@ while (1==1)
     scanf("%d", &BT11);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT12);
       }
       if(tanggal == 3) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT13);
       }
       if(tanggal == 4) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT14);
       }
       if(tanggal == 5) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT15);
       }
       //lanjut
       if(tanggal == 6) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT16);
       }
       if(tanggal == 7) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT17);
       }
       if(tanggal == 8) {
@@ -343,19 +343,19 @@ while (1==1)
     
     
     //bulan 3
-else if(bulan == 3) {
-      printf("\nTahun :");
+	else if(bulan == 3) {
+	  printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT31);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT32);
       }
       if(tanggal == 3) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT33);
       }
       if(tanggal == 4) {
@@ -476,14 +476,14 @@ else if(bulan == 3) {
     
     //Bulan 4
     else if(bulan == 4) {
-      printf("\nTahun :");
+      printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT41);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT42);
       }
       if(tanggal == 3) {
@@ -604,14 +604,14 @@ else if(bulan == 3) {
     
     //Bulan 5
     else if(bulan == 5) {
-      printf("\nTahun :");
+      printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT51);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT52);
       }
       if(tanggal == 3) {
@@ -732,258 +732,258 @@ else if(bulan == 3) {
     
     //bulan 6
     else if(bulan == 6) {
-      printf("\nTahun :");
+      printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT61);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT62);
       }
       if(tanggal == 3) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT63);
       }
       if(tanggal == 4) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT64);
       }
       if(tanggal == 5) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT65);
       }
       //lanjut
       if(tanggal == 6) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT66);
       }
       if(tanggal == 7) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT67);
       }
       if(tanggal == 8) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT68);
       }
       if(tanggal == 9) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT69);
       }
       if(tanggal == 10) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT610);
       }
       if(tanggal == 11) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT611);
       }
       if(tanggal == 12) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT612);
       }
       if(tanggal == 13) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT613);
       }
       if(tanggal == 14) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT614);
       }
       if(tanggal == 15) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT615);
       }
        if(tanggal == 16) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT616);
       }
       if(tanggal == 17) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT617);
       }
       if(tanggal == 18) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT618);
       }
       if(tanggal == 19) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT619);
       }
       if(tanggal == 20) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT620);
       }
       if(tanggal == 21) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT621);
       }
       if(tanggal == 22) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT622);
       }
       if(tanggal == 23) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT623);
       }
       if(tanggal == 24) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT624);
       }
       if(tanggal == 25) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT625);
       }
        if(tanggal == 26) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT626);
       }
       if(tanggal == 27) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT627);
       }
       if(tanggal == 28) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT628);
       }
       if(tanggal == 29) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT629);
       }
       if(tanggal == 30) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT630);
       }
     }
     
     //Bulan 7
     else if(bulan == 7) {
-      printf("\nTahun :");
+      printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT71);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT72);
       }
       if(tanggal == 3) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT73);
       }
       if(tanggal == 4) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT74);
       }
       if(tanggal == 5) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT75);
       }
       //lanjut
       if(tanggal == 6) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT76);
       }
       if(tanggal == 7) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT77);
       }
       if(tanggal == 8) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT68);
       }
       if(tanggal == 9) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT79);
       }
       if(tanggal == 10) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT710);
       }
       if(tanggal == 11) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT711);
       }
       if(tanggal == 12) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT712);
       }
       if(tanggal == 13) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT713);
       }
       if(tanggal == 14) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT714);
       }
       if(tanggal == 15) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT715);
       }
        if(tanggal == 16) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT716);
       }
       if(tanggal == 17) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT717);
       }
       if(tanggal == 18) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT718);
       }
       if(tanggal == 19) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT719);
       }
       if(tanggal == 20) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT720);
       }
       if(tanggal == 21) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT721);
       }
       if(tanggal == 22) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT722);
       }
       if(tanggal == 23) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT723);
       }
       if(tanggal == 24) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT724);
       }
       if(tanggal == 25) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT725);
       }
        if(tanggal == 26) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT726);
       }
       if(tanggal == 27) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT727);
       }
       if(tanggal == 28) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT728);
       }
       if(tanggal == 29) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT729);
       }
       if(tanggal == 30) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT730);
       }
       if(tanggal == 31) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT731);
       }
     }
@@ -991,170 +991,170 @@ else if(bulan == 3) {
 
   	//bulan 8
     else if(bulan == 8) {
-      printf("\nTahun :");
+      printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT81);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT82);
       }
       if(tanggal == 3) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT83);
       }
       if(tanggal == 4) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT84);
       }
       if(tanggal == 5) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT85);
       }
       //lanjut
       if(tanggal == 6) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT86);
       }
       if(tanggal == 7) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT87);
       }
       if(tanggal == 8) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT88);
       }
       if(tanggal == 9) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT89);
       }
       if(tanggal == 10) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT810);
       }
       if(tanggal == 11) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT811);
       }
       if(tanggal == 12) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT812);
       }
       if(tanggal == 13) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT813);
       }
       if(tanggal == 14) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT814);
       }
       if(tanggal == 15) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT815);
       }
        if(tanggal == 16) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT816);
       }
       if(tanggal == 17) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT817);
       }
       if(tanggal == 18) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT818);
       }
       if(tanggal == 19) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT819);
       }
       if(tanggal == 20) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT820);
       }
       if(tanggal == 21) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT821);
       }
       if(tanggal == 22) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT822);
       }
       if(tanggal == 23) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT823);
       }
       if(tanggal == 24) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT824);
       }
       if(tanggal == 25) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT825);
       }
        if(tanggal == 26) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT826);
       }
       if(tanggal == 27) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT827);
       }
       if(tanggal == 28) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT828);
       }
       if(tanggal == 29) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT829);
       }
       if(tanggal == 30) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT830);
       }
     }
     
     //Bulan 9
     else if(bulan == 9) {
-      printf("\nTahun :");
+      printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT91);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT92);
       }
       if(tanggal == 3) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT93);
       }
       if(tanggal == 4) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT94);
       }
       if(tanggal == 5) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT95);
       }
       //lanjut
       if(tanggal == 6) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT96);
       }
       if(tanggal == 7) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT97);
       }
       if(tanggal == 8) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT98);
       }
       if(tanggal == 9) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT99);
       }
       if(tanggal == 10) {
@@ -1246,22 +1246,22 @@ else if(bulan == 3) {
     
     //Bulan 10
     else if(bulan == 10) {
-      printf("\nTahun :");
+      printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT101);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT102);
       }
       if(tanggal == 3) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT103);
       }
       if(tanggal == 4) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT104);
       }
       if(tanggal == 5) {
@@ -1378,14 +1378,14 @@ else if(bulan == 3) {
     
     //Bulan 11
     else if(bulan == 11) {
-      printf("\nTahun :");
+      printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT11111);
       }
       if(tanggal == 2) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT11112);
       }
       if(tanggal == 3) {
@@ -1510,10 +1510,10 @@ else if(bulan == 3) {
     
     //Bulan 12
     else if(bulan == 12) {
-      printf("\nTahun :");
+      printf("\nTahun     : ");
       scanf("%d", &Tahun);
       if(tanggal == 1) {
-       printf("\nJumlah :");
+       printf("\nJumlah    : ");
     scanf("%d", &BT1201);
       }
       if(tanggal == 2) {
@@ -2157,8 +2157,6 @@ else if(bulan == 3) {
 	
 	//Bulan 6
     else if(b1 == 6) {
-      printf("");
-      scanf("%d", &ta1);//tanggal
       if(tanggal == 1) {
         printf("%d\n", BT61);
       }
@@ -2260,8 +2258,6 @@ else if(bulan == 3) {
 	
 	//Bulan 7
 	else if(b1 == 7) {
-      printf("");
-      scanf("%d", &ta1);//tanggal
       if(tanggal == 1) {
         printf("%d\n", BT71);
       }
@@ -2467,8 +2463,6 @@ else if(bulan == 3) {
 	
 	//Bulan 9
 	else if(b1 == 9) {
-      printf("");
-      scanf("%d", &ta1);//tanggal
       if(tanggal == 1) {
         printf("%d\n", BT91);
       }
@@ -2570,8 +2564,6 @@ else if(bulan == 3) {
 	
 	//Bulan 10
 	else if(b1 == 10) {
-      printf("");
-      scanf("%d", &ta1);//tanggal
       if(tanggal == 1) {
         printf("%d\n", BT101);
       }
@@ -2676,8 +2668,6 @@ else if(bulan == 3) {
 	
 	//Bulan 11
 	else if(b1 == 11) {
-      printf("");
-      scanf("%d", &ta1);//tanggal
       if(tanggal == 1) {
         printf("%d\n", BT11111);
       }
@@ -2779,8 +2769,6 @@ else if(bulan == 3) {
 
 	//Bulan 12
 	else if(b1 == 12) {
-      printf("");
-      scanf("%d", &ta1);//tanggal
       if(tanggal == 1) {
         printf("%d\n", BT1201);
       }
