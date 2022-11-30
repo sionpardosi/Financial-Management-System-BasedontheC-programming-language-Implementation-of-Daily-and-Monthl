@@ -1,13 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 
 int pilihan;
 int tanggal;
 int bulan;
 int Tahun;
 int jumlah;
+int bulan2;
+int kembali;
+int t1;
+//Bulan 1
+int BT11,BT12,BT13,BT14,BT15,BT16,BT17,BT18,BT19,BT110,BT111,BT112,BT113,BT114,BT115,BT116,BT117,BT118,BT119,BT120,BT121,BT122,BT123,BT124,BT125,BT126,BT127,BT128,BT129,BT130,bulan1;
+//Bulan 2
+int BT21,BT22,BT23,BT24,BT25,BT26,BT27,BT28,BT29,BT210,BT211,BT212,BT213,BT214,BT215,BT216,BT217,BT218,BT219,BT220,BT221,BT222,BT223,BT224,BT225,BT226,BT227,BT228,BT229,BT230,bulan2;
+char b1;
+int ta1;
 
 int main(void) {
+while (1==1)
+{
+  /* code */
   printf("======================================\n");
   printf("--------Selamat Datang Mutiara--------\n");
   printf("======================================\n");
@@ -16,8 +29,10 @@ int main(void) {
   printf("3. Keluar\n");
   printf("Masukkan Pilihan Anda :");
   scanf("%d", &pilihan);
-  if (pilihan == 1) {
-    printf("\n\n\n\n\n\n");
+  system("cls");
+  switch (pilihan)
+  {
+  case 1:
     printf("\t======================================\n");
     printf("\t--------------Input Pengeluaran-------\n");
     printf("\t======================================\n");
@@ -25,17 +40,107 @@ int main(void) {
     scanf("%d", &tanggal);
     printf("\nBulan :");
     scanf("%d", &bulan);
-    printf("\nTahun :");
-    scanf("%d", &Tahun);
-    printf("\nJumlah :");
-    scanf("%d", &jumlah);
-
-  } else if (pilihan == 2) {
-    printf("\t======================================\n");
+    if(bulan == 2) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT21);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT22);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT23);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT24);
+      }
+    }
+    else if(bulan == 1) {
+      printf("\nTahun :");
+      scanf("%d", &Tahun);
+      if(tanggal == 1) {
+       printf("\nJumlah :");
+    scanf("%d", &BT11);
+      }
+      if(tanggal == 2) {
+       printf("\nJumlah :");
+    scanf("%d", &BT12);
+      }
+      if(tanggal == 3) {
+       printf("\nJumlah :");
+    scanf("%d", &BT13);
+      }
+      if(tanggal == 4) {
+       printf("\nJumlah :");
+    scanf("%d", &BT14);
+      }
+      if(tanggal == 5) {
+       printf("\nJumlah :");
+    scanf("%d", &BT15);
+      }
+    }
+      
+    break;
+    case 2:
+     printf("\t======================================\n");
     printf("\t--------------Data Keuangan----------\n");
     printf("\t======================================\n");
-  } else if (pilihan == 3) {
-    exit(0);
-  }
-  return 0;
+    
+      printf("");
+      scanf("%d", &t1);//tahun
+      printf("");
+      scanf("%d", &b1);//bulan
+      if(b1 == 1) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT11);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT12);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT13);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT14);
+      }
+      if(tanggal == 5) {
+        printf("%d\n", BT15);
+      }
+ }
+  else if(b1 == 2) {
+      printf("");
+      scanf("%d", &ta1);//tanggal
+      if(tanggal == 1) {
+        printf("%d\n", BT21);
+      }
+      if(tanggal == 2) {
+        printf("%d\n", BT22);
+      }
+      if(tanggal == 3) {
+        printf("%d\n", BT23);
+      }
+      if(tanggal == 4) {
+        printf("%d\n", BT24);
+      }
 }
+ break;
+  }//switch
+
+
+      
+}//while
+
+    /* code */
+  return 0; 
+}
+
+
+
+
