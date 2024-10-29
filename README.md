@@ -34,9 +34,6 @@ Selamat datang di repositori Sistem Pengelolaan Keuangan Berbasis C! Proyek ini 
 - Anda dapat mengembangkan aplikasi ini lebih lanjut dengan menambah fitur seperti penyimpanan data ke file, validasi input yang lebih baik, dan antarmuka pengguna yang ditingkatkan.
 - Jangan ragu untuk berkontribusi dengan memperbaiki bug, menambahkan fitur baru, atau meningkatkan dokumentasi.
 
-## Lisensi
-Proyek ini dilisensikan di bawah [lisensi MIT](LICENSE), yang berarti Anda bebas untuk menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan/atau menjual salinan dari perangkat lunak ini, sesuai dengan ketentuan yang diatur dalam lisensi.
-
 ## Kontak
 Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi kami melalui email atau membuat isu di repositori ini. Kami terbuka untuk kolaborasi dan saran yang membangun.
 
