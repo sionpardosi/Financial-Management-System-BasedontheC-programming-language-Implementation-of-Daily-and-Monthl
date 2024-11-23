@@ -1,40 +1,50 @@
-# Sistem Pengelolaan Keuangan Berbasis C: Implementasi Data Harian dan Bulanan (sangat sederhana)
+# C-Based Financial Management System: Daily and Monthly Data Implementation (Very Simple)
 
-Selamat datang di repositori Sistem Pengelolaan Keuangan Berbasis C! Proyek ini bertujuan untuk mengembangkan sebuah aplikasi sederhana menggunakan bahasa pemrograman C untuk mengelola pengeluaran harian dan bulanan. Aplikasi ini dirancang untuk memungkinkan pengguna untuk mencatat pengeluaran mereka setiap hari, serta menganalisis total pengeluaran bulanan.
+### <summary><strong>Tools:</strong></summary>
+<p>
+    <img src="https://img.shields.io/badge/Language-C-blue?logo=c&logoColor=white" />
+    <img src="https://img.shields.io/badge/Algorithm-Iterative-orange?logo=c&logoColor=white" />
+    <img src="https://img.shields.io/badge/Compiler-GCC-green?logo=gnu&logoColor=white" />
+    <img src="https://img.shields.io/badge/Editor-Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=white" />
+    <img src="https://img.shields.io/badge/Platform-Cross%20Platform-lightgrey?logo=linux&logoColor=white" />
+    <img src="https://img.shields.io/badge/Tool-Terminal-black?logo=gnometerminal&logoColor=white" />
+</p>
 
-## Fitur Utama
+Welcome to the C-Based Financial Management System repository! This project aims to develop a simple application using the C programming language to manage daily and monthly expenses. The application is designed to allow users to record their daily expenditures and analyze their total monthly expenses.
 
-### 1. Input Pengeluaran Harian
-   - Pengguna dapat memasukkan jumlah pengeluaran mereka untuk setiap tanggal tertentu.
-   - Setiap tanggal memiliki variabel yang mewakili jumlah pengeluaran, sesuai dengan kode yang diberikan.
+## Key Features
 
-### 2. Data Keuangan Harian
-   - Pengguna dapat melihat detail pengeluaran mereka berdasarkan tanggal.
-   - Setiap tanggal memiliki variabel yang menyimpan jumlah pengeluaran harian, seperti yang terlihat dalam implementasi untuk bulan Februari.
+### 1. Daily Expense Input
+   - Users can input their expenditure for specific dates.
+   - Each date has a variable representing the expenditure amount, as specified in the provided code.
 
-### 3. Data Keuangan Bulanan
-   - Pengguna dapat melihat total pengeluaran bulanan dengan memasukkan tahun dan bulan yang diinginkan.
-   - Aplikasi akan menghitung jumlah total pengeluaran untuk bulan tersebut berdasarkan variabel yang mewakili pengeluaran harian.
+### 2. Daily Financial Data
+   - Users can view detailed expenditure information based on specific dates.
+   - Each date has a variable storing the daily expenditure amount, as demonstrated in the implementation for the month of February.
 
-## Cara Menggunakan
+### 3. Monthly Financial Data
+   - Users can view the total monthly expenditure by entering the desired year and month.
+   - The application will calculate the total expenditure for that month based on the variables representing daily expenses.
 
-### 1. Persiapan
-   - Pastikan Anda memiliki compiler C yang terinstal di sistem Anda, seperti GCC.
-   - Clone repositori ini ke dalam direktori lokal Anda.
+## How to Use
 
-### 2. Menjalankan Aplikasi
-   - Compile program menggunakan perintah `gcc nama_file.c -o nama_output` di terminal.
-   - Jalankan aplikasi dengan menjalankan file output yang dihasilkan (`./nama_output`).
+### 1. Setup
+   - Ensure you have a C compiler installed on your system, such as GCC.
+   - Clone this repository into your local directory.
 
-### 3. Interaksi dengan Aplikasi
-   - Pilih opsi dari menu utama untuk memasukkan pengeluaran, melihat data keuangan harian, atau melihat data keuangan bulanan.
-   - Input pengguna akan diminta sesuai dengan instruksi yang ditampilkan di layar.
+### 2. Running the Application
+   - Compile the program using the command `gcc file_name.c -o output_name` in the terminal.
+   - Run the application by executing the generated output file (`./output_name`).
 
-## Penyesuaian dan Pengembangan Lebih Lanjut
-- Anda dapat mengembangkan aplikasi ini lebih lanjut dengan menambah fitur seperti penyimpanan data ke file, validasi input yang lebih baik, dan antarmuka pengguna yang ditingkatkan.
-- Jangan ragu untuk berkontribusi dengan memperbaiki bug, menambahkan fitur baru, atau meningkatkan dokumentasi.
+### 3. Interacting with the Application
+   - Select options from the main menu to input expenses, view daily financial data, or view monthly financial data.
+   - The user will be prompted for input according to the instructions displayed on the screen.
 
-## Kontak
-Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi kami melalui email atau membuat isu di repositori ini. Kami terbuka untuk kolaborasi dan saran yang membangun.
+## Customization and Further Development
+- You can further develop this application by adding features such as saving data to a file, improved input validation, and enhanced user interfaces.
+- Feel free to contribute by fixing bugs, adding new features, or improving the documentation.
 
-Terima kasih telah menggunakan Sistem Pengelolaan Keuangan Berbasis C! Kami berharap aplikasi ini bermanfaat bagi Anda.
+## Contact
+If you have any questions or suggestions, feel free to contact us via email or create an issue in this repository. We welcome collaboration and constructive feedback.
+
+Thank you for using the C-Based Financial Management System! We hope this application proves useful to you.
